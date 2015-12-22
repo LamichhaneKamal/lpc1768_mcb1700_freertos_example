@@ -1,0 +1,126 @@
+Dependencies for Project 'RTOS_01', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x55E95800)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\heap_1.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\heap_1.o --omf_browse .\heap_1.crf --depend .\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+F (.\list.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (list.h)(0x55E95800)
+F (.\main.c)(0x5679D384)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (FreeRtOSConfig.h)(0x55E95800)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+I (croutine.h)(0x55E95800)
+I (uart.h)(0x55E95800)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\lpc17xx.h)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (stdutils.h)(0x55E95800)
+F (.\port.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+F (.\queue.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+F (.\system_LPC17xx.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.h)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+F (.\tasks.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+I (timers.h)(0x55E95800)
+I (StackMacros.h)(0x55E95800)
+F (.\timers.c)(0x55E95800)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+I (FreeRTOS.h)(0x55E95800)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (projdefs.h)(0x55E95800)
+I (FreeRTOSConfig.h)(0x55E95800)
+I (portable.h)(0x55E95800)
+I (portmacro.h)(0x55E95800)
+I (mpu_wrappers.h)(0x55E95800)
+I (task.h)(0x55E95800)
+I (list.h)(0x55E95800)
+I (queue.h)(0x55E95800)
+I (timers.h)(0x55E95800)
+F (.\uart.c)(0x5679D13A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Users\klami\Desktop\FreeRTOS\RTOS_01\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC175x_6x-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.h)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (uart.h)(0x55E95800)
+I (stdutils.h)(0x55E95800)
+F (.\croutine.h)(0x55E95800)()
+F (.\FreeRTOS.h)(0x55E95800)()
+F (.\FreeRTOSConfig.h)(0x55E95800)()
+F (.\list.h)(0x55E95800)()
+F (.\mpu_wrappers.h)(0x55E95800)()
+F (.\portable.h)(0x55E95800)()
+F (.\portmacro.h)(0x55E95800)()
+F (.\projdefs.h)(0x55E95800)()
+F (.\queue.h)(0x55E95800)()
+F (.\semphr.h)(0x55E95800)()
+F (.\StackMacros.h)(0x55E95800)()
+F (.\stdutils.h)(0x55E95800)()
+F (.\task.h)(0x55E95800)()
+F (.\timers.h)(0x55E95800)()
+F (.\uart.h)(0x55E95800)()
